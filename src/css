@@ -1,0 +1,26 @@
+.container2 {
+  display: block;
+   background-image: url(../Global_network_generated.jpg);
+  grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+ margin-right: 3rem !important;
+ margin-left: 3rem !important;
+
+
+
+}
+.text-shipping{
+  text-align: center;
+  color: #f4f4f4;
+}
+.photo3{
+  background-image: url(../vecteezy_startup-sme-small-business-entrepreneur-of-freelance-asian_12497537.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  top: 30px;
+
+}
+
