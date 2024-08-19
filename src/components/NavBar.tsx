@@ -12,9 +12,10 @@ function NavBar({ brandName,imageSrcPath ,navItems }: NavBarProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
+    <>
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow d-block">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="home">
           <img
             src={imageSrcPath}
             width="60"
@@ -52,7 +53,8 @@ function NavBar({ brandName,imageSrcPath ,navItems }: NavBarProps) {
                       ? "nav-link active fw-bold"
                       : "nav-link"
                   }
-                  href="#"
+                  href="#contact"
+          
                 >
                   {items}
                 </a>
@@ -63,6 +65,7 @@ function NavBar({ brandName,imageSrcPath ,navItems }: NavBarProps) {
         </div>
       </div>
     </nav>
+    </>
   );
 }
 

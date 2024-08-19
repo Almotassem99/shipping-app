@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Caveat:wght@400..700&display=swap');
+* {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
 /* custom.css */
 .navbar-nav .nav-item .nav-link:hover {
   color: black; /* Change to your desired text color on hover */
@@ -174,6 +185,7 @@ user agent stylesheetdiv {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
+  
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -208,10 +220,16 @@ user agent stylesheetdiv {
 }
 .carousel-caption.start{
   text-align: center;
-  color: #224c83;
-   top: 40%;
+  color: #ffffff;
+   top: 43%;
   position: absolute;
   border: #031633;
+ background-color: rgba(0,0,0, 0.3);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 15%;
+ border-radius: 0%;
+
   
 }
 
@@ -219,12 +237,340 @@ user agent stylesheetdiv {
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
+
 }
 .pb-2 {
   padding-bottom: .5rem !important;
   text-align: center;
+
+  
 }
 .fs-10{
   text-align: right;
+
+}
+.fs-11{
+  text-align: right;
+ 
+}
+.carousel-caption.rest{
+  text-align: center;
+  color: #ffffff;
+   top: 37%;
+  position: absolute;
+  background-color: rgba(0,0,0, 0.3);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 39%;
+ border-radius: 0%;
+}
+.bd-placeholder-img{
+  background-color: rgba(0,0,0, 0.);
+}
+.icon-square{
+  text-align: center;
+  justify-items: center;
+}
+.fs-2{
+  text-align: center;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+
+  
 }
 
+.card-cover {
+  /* Other styles specific to the card-cover class */
+
+ 
+}
+.d-flex{
+  
+}
+.flex-column{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Example class for a specific image */
+.cardone {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../close-up-detail-view-of-cargo-cart-trolley-full-wi-2024-02-09-15-22-45-utc.jpg');
+}
+
+.cardtwo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../vecteezy_delivery-truck-loaded-with-cardboard-boxes-logistics_25870607.jpeg');
+}
+.cardthree {
+  position: relative;
+  width: 100%;
+  height: 100%;
+   
+  background-size: cover;
+  background-position: center;
+  background-image: url('../container-ship-cargo-freight-shipping-maritime-gl-2023-11-27-05-31-32-utc.jpg');
+}
+
+
+/* Additional styles for the card */
+.text-shadow-1 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.pt-5{
+  text-align: center;
+  opacity: 0.9;
+}
+.fs-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.phone-number {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.phone-number:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-section {
+      grid-template-columns: 1fr;
+  }
+}
+.fs-11{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      text-align: center;
+  }
+
+  .footer .row {
+      text-align: center;
+  }
+}
+.card:hover{
+  cursor: pointer;
+}
+.col-md-4{
+  text-align: center;
+}
+
+.container1{
+ display: grid;
+ grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+ height: 80vh;
+ padding-right: 3rem !important;
+ padding-left: 3rem !important;
+  padding-bottom: 5%;
+}  
+.photo1{
+background-image: url(../containers-on-a-vessel-global-market-cargo-shipp-2023-11-27-05-13-43-utc.jpg);
+background-size: cover;
+background-position: center;
+}
+.photo2{
+  background-image: url(../vecteezy_big-transport-ship-loaded-with-containers-with-goods-on-the_27530540.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.text-content{
+  text-align: center;
+}
+.number-content{
+word-wrap:break-word;
+}
+
+
+
+
+
+/* General container styling */
+.container2 {
+   position: relative; /* This makes sure that photo-container is positioned relative to container2 */
+/* width: 100%;  */
+ height: 80vh; 
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+  background-image: url("../Global_network_generated.jpg"); /* Set the path to your image */
+  background-size: cover; /* Adjust based on your image aspect ratio */
+  background-position: center;
+}
+
+/* Styling for the text */
+.text-shipping {
+  text-align: center;
+  margin-bottom: 20px; /* Adds space between text and images */
+  color: #f4f4f4;
+}
+
+/* Container for photos to manage stacking */
+.photo-container {
+  position: relative; /* This allows the absolute positioning of photo3 and photo4 within this container */
+  width: 100%;
+  height: 300px; /* Adjust based on your image height */
+}
+
+/* Styling for photo4 */
+.photo4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  
+  z-index: 1; /* Lower z-index so it's behind photo3 */
+}
+
+/* Styling for photo3 */
+.photo3 {
+ 
+  position: absolute;
+   top: 250px;
+  left: 12%; 
+  width: 75%;
+  height: 75%; 
+  background-image: url("../vecteezy_startup-sme-small-business-entrepreneur-of-freelance-asian_12497537.jpg"); /* Set the path to your image */
+  background-size: cover; /* Adjust based on your image aspect ratio */
+  background-position: center;
+ 
+  z-index: 2; /* Higher z-index so it's on top of photo4 */
+}
+.text-shipping1{
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  margin-top: 75px;
+}
+
+
+
+/*.cardone :hover{
+  box-shadow: 2px 2px 2px 2px blue;
+} */
