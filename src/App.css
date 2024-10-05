@@ -11,9 +11,8 @@
 
 /* custom.css */
 .navbar-nav .nav-item .nav-link:hover {
-  color: black; /* Change to your desired text color on hover */
-  background-color: #f0f0f0; /* Change to your desired background color on hover */
-  /* Add any other styling you want for the hover effect */
+  color: black; 
+  background-color: #f0f0f0;
 }
 .d-inline-block {
  /* border-radius: 50%;*/
@@ -304,6 +303,7 @@ user agent stylesheetdiv {
   background-size: cover;
   background-position: center;
   background-image: url('../close-up-detail-view-of-cargo-cart-trolley-full-wi-2024-02-09-15-22-45-utc.jpg');
+
 }
 
 .cardtwo {
@@ -407,7 +407,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .contact-section {
       grid-template-columns: 1fr;
@@ -511,33 +511,32 @@ word-wrap:break-word;
 
 
 
-/* General container styling */
 .container2 {
-   position: relative; /* This makes sure that photo-container is positioned relative to container2 */
+   position: relative; 
 /* width: 100%;  */
  height: 80vh; 
   margin-right: 3rem !important;
   margin-left: 3rem !important;
-  background-image: url("../Global_network_generated.jpg"); /* Set the path to your image */
-  background-size: cover; /* Adjust based on your image aspect ratio */
+  background-image: url("../Global_network_generated.jpg"); 
+  background-size: cover; 
   background-position: center;
 }
 
-/* Styling for the text */
+
 .text-shipping {
   text-align: center;
-  margin-bottom: 20px; /* Adds space between text and images */
+  margin-bottom: 20px; 
   color: #f4f4f4;
 }
 
-/* Container for photos to manage stacking */
+
 .photo-container {
-  position: relative; /* This allows the absolute positioning of photo3 and photo4 within this container */
+  position: relative; 
   width: 100%;
-  height: 300px; /* Adjust based on your image height */
+  height: 300px; 
 }
 
-/* Styling for photo4 */
+
 .photo4 {
   position: absolute;
   top: 0;
@@ -545,10 +544,10 @@ word-wrap:break-word;
   width: 100%;
   height: 80vh;
   
-  z-index: 1; /* Lower z-index so it's behind photo3 */
+  z-index: 1; 
 }
 
-/* Styling for photo3 */
+
 .photo3 {
  
   position: absolute;
@@ -557,10 +556,10 @@ word-wrap:break-word;
   width: 75%;
   height: 75%; 
   background-image: url("../vecteezy_startup-sme-small-business-entrepreneur-of-freelance-asian_12497537.jpg"); /* Set the path to your image */
-  background-size: cover; /* Adjust based on your image aspect ratio */
+  background-size: cover; 
   background-position: center;
  
-  z-index: 2; /* Higher z-index so it's on top of photo4 */
+  z-index: 2;
 }
 .text-shipping1{
   text-align: center;
@@ -570,7 +569,3 @@ word-wrap:break-word;
 }
 
 
-
-/*.cardone :hover{
-  box-shadow: 2px 2px 2px 2px blue;
-} */

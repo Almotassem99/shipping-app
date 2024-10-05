@@ -53,11 +53,12 @@ function NavBar({ brandName,imageSrcPath ,navItems }: NavBarProps) {
                       ? "nav-link active fw-bold"
                       : "nav-link"
                   }
-                  href="#contact"
+                  href="#home"
           
                 >
                   {items}
                 </a>
+               
               </li>
             ))}
           </ul>
@@ -69,4 +70,4 @@ function NavBar({ brandName,imageSrcPath ,navItems }: NavBarProps) {
   );
 }
 
-export default NavBar;
+export default NavBar; 
